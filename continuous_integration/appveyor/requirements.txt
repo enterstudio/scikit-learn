@@ -8,8 +8,9 @@
 # fix the versions of numpy to force the use of numpy and scipy to use the whl
 # of the rackspace folder instead of trying to install from more recent
 # source tarball published on PyPI
-numpy==1.8.1
+numpy==1.22.2
 scipy==0.14.0
 nose
 wheel
 wheelhouse_uploader
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
