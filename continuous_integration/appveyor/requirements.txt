@@ -13,3 +13,4 @@ scipy==0.14.0
 nose
 wheel
 wheelhouse_uploader
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
